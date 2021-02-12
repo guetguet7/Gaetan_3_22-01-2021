@@ -268,16 +268,19 @@ p.ville {
   -webkit-transition: purple 1s ease-out;
   transition: purple 1s ease-out;
   opacity: 1;
+  -webkit-animation: 6s ease;
+          animation: 6s ease;
 }
 
 .fa-heart:hover::before {
   color: #9356DC;
   font-weight: bold;
-  -webkit-transition: opacity 6s ease-out;
-  transition: opacity 6s ease-out;
+  -webkit-transition: opacity 6s ease;
+  transition: opacity 6s ease;
   cursor: pointer;
 }
 
+/*footer toutes les pages*/
 footer {
   background-color: grey;
 }
