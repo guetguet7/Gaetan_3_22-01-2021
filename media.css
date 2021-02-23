@@ -1,0 +1,63 @@
+
+@media (min-width:620px)
+{
+    .menu
+    {
+        margin: 25px;
+    }
+
+    span.new
+    {
+        top: 35px;
+        left: 230px;
+    }
+
+    .coeur 
+    {
+        left: 280px;
+    }
+
+}
+
+@media (min-width:950px) 
+{  
+    .section1
+    {
+        font-size: large;
+    }
+
+    .section2
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .allbarre
+    {
+        flex-direction: row;
+    }
+
+    a.barre
+    {
+        margin-left: 60px;
+        width: auto;
+    }
+
+    footer h1
+    {
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        padding-bottom:30px ;
+    }
+
+    .footer-contener
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: larger;
+    }
+}
