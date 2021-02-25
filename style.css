@@ -306,6 +306,9 @@ a.barre:hover {
 .section3 a {
   position: relative;
   margin: 10px;
+  width: 100%;
+  min-width: 270px;
+  max-width: 560px;
 }
 
 .sectionmenu {
@@ -344,8 +347,6 @@ span.new {
 
 figure.menu {
   height: 245px;
-  width: 100%;
-  max-width: 650px;
   border-radius: 10px;
   margin-bottom: 25px;
   -webkit-box-shadow: 0 0 1em 0 #d0d0d0;
