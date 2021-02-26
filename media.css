@@ -14,18 +14,18 @@
         justify-content: center;
     }
 
-    .allbarre
+    .allfilters
     {
         flex-direction: row;
     }
 
-    a.barre
+    a.filter
     {
         margin-left: 60px;
         width: auto;
     }
 
-    footer h1
+    footer h3
     {
         font-size: 32px;
         display: flex;
