@@ -355,18 +355,18 @@ figure.card {
           box-shadow: 0 0 1em 0 #d0d0d0;
 }
 
-.card-legende {
+.card_legende {
   padding-left: 5px;
   line-height: 25px;
   padding: 10px;
   position: relative;
 }
 
-.card-legende strong {
+.card_legende strong {
   margin: 0;
 }
 
-.card-legende p {
+.card_legende p {
   opacity: 0.7;
 }
 
@@ -420,7 +420,7 @@ footer a {
   color: white;
 }
 
-footer .footer-link {
+footer .footer_link {
   padding: 10px 0 10px 0;
 }
 
@@ -494,7 +494,7 @@ main img {
 }
 
 /*toutes les barres menus */
-.meal-cards {
+.meal_cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,7 +517,7 @@ main img {
           box-shadow: 0 0 0.5em #D0D0D0;
 }
 
-.meal-cards-dish {
+.meal_cards_dish {
   width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -525,13 +525,13 @@ main img {
   line-height: 40px;
 }
 
-.meal-cards-dish p {
+.meal_cards_dish p {
   font-weight: bold;
   font-weight: bold;
   text-overflow: ellipsis;
 }
 
-.meal-cards-dish span {
+.meal_cards_dish span {
   font-size: 14px;
   opacity: 0.7;
 }
@@ -587,13 +587,13 @@ main img {
   transition: all 0.7s ease-in-out;
 }
 
-.meal-cards:hover .check {
+.meal_cards:hover .check {
   margin-right: 0;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
-.meal-cards:hover .check .fas {
+.meal_cards:hover .check .fas {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -649,77 +649,77 @@ main img {
   }
 }
 
-.meal-cards:nth-child(2) {
+.meal_cards:nth-child(2) {
   -webkit-animation-delay: 0.25s;
           animation-delay: 0.25s;
 }
 
-.meal-cards:nth-child(3) {
+.meal_cards:nth-child(3) {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
 
-.meal-cards:nth-child(4) {
+.meal_cards:nth-child(4) {
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
 }
 
-.meal-cards:nth-child(5) {
+.meal_cards:nth-child(5) {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-.meal-cards:nth-child(5) {
+.meal_cards:nth-child(5) {
   -webkit-animation-delay: 1.25s;
           animation-delay: 1.25s;
 }
 
-.meal-cards:nth-child(6) {
+.meal_cards:nth-child(6) {
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
 }
 
-.meal-cards:nth-child(7) {
+.meal_cards:nth-child(7) {
   -webkit-animation-delay: 1.75s;
           animation-delay: 1.75s;
 }
 
-.meal-cards:nth-child(8) {
+.meal_cards:nth-child(8) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 
-.meal-cards:nth-child(9) {
+.meal_cards:nth-child(9) {
   -webkit-animation-delay: 2.25s;
           animation-delay: 2.25s;
 }
 
-.meal-cards:nth-child(10) {
+.meal_cards:nth-child(10) {
   -webkit-animation-delay: 2.5s;
           animation-delay: 2.5s;
 }
 
-.meal-cards:nth-child(11) {
+.meal_cards:nth-child(11) {
   -webkit-animation-delay: 2.75s;
           animation-delay: 2.75s;
 }
 
-.meal-cards:nth-child(12) {
+.meal_cards:nth-child(12) {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
 }
 
-.meal-cards:nth-child(13) {
+.meal_cards:nth-child(13) {
   -webkit-animation-delay: 3.25s;
           animation-delay: 3.25s;
 }
 
-.meal-cards:nth-child(14) {
+.meal_cards:nth-child(14) {
   -webkit-animation-delay: 3.5s;
           animation-delay: 3.5s;
 }
 
-.meal-cards:nth-child(15) {
+.meal_cards:nth-child(15) {
   -webkit-animation-delay: 3.75s;
           animation-delay: 3.75s;
 }
