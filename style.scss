@@ -38,8 +38,6 @@ $cd-color3:#99E2D0;
 .loader
 {
     width: 150px;
-    display: flex;
-    align-items: center;
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -53,7 +51,6 @@ $cd-color3:#99E2D0;
         height: 10px;
         border: 1px solid #69d2e7;
         border-radius: 10px;
-
     }
 
     .loading_1:before
@@ -111,6 +108,8 @@ header
     }
 }
 
+/*PAGE D'ACCUEIL*/
+
 .section1
 {
     display:flex;
@@ -143,7 +142,7 @@ header
         padding-left: 15px;
     }
 }
-                    /*bouton explore et commande*/
+                    /*BOUTON EXPLORE ET COMMANDE (bouton des 4 menus)*/
 
 .explore
 {
@@ -242,7 +241,7 @@ a.filter
         color: $cd-color1;
     }
 
-/*carte restaurant index.html*/
+/*LES 4 MENUS DE LA PAGE D'ACCUEIL*/
 
 .section3
 {
@@ -261,7 +260,6 @@ a.filter
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-
     a 
     {
         position: relative;
@@ -388,7 +386,7 @@ footer
     }
 }
 
-/*pages menus*/
+/*PAGES DES 4 MENUS */
 
 main img
 {
@@ -415,7 +413,7 @@ main img
     }
 }
 
-/*animation coeur des pages menus*/
+/*ANIMATION DES COEURS DANS LES MENUS*/
 
 .titrecoeur
 {
@@ -453,7 +451,7 @@ main img
     }
 }
 
-/*soulignement sous les titres*/
+/*SOULIGNEMENT DES TITRES DES MENUS*/
 
 .underline
 {
@@ -462,7 +460,7 @@ main img
     padding-top: 50px;
 }
 
-/*toutes les barres menus */
+/*TOUT LES PLATS DES MENUS */
 
 .meal_cards
 {
@@ -476,10 +474,12 @@ main img
   background-color: white;
   border-radius:20px;
   padding-left:10px;
-  opacity:0;
+  opacity: 0;
   animation: deroule 4s forwards;
   box-shadow: 0 0 0.5em #D0D0D0;
 }
+
+/*TEXTE QUI SE CACHE AVEC L'ANIMATION*/
 
 .meal_cards_dish 
 {
@@ -491,7 +491,6 @@ main img
 
     p
     {
-        font-weight: bold;
         font-weight: bold;
         text-overflow: ellipsis;
     }
@@ -521,7 +520,7 @@ main img
     font-weight: bold;
 }
 
-/*animation check*/
+/*ANIMATION ROTATION CHECK*/
 
 .check
 {
@@ -561,7 +560,7 @@ main img
     }
 }
 
-/* animation defilement progressif des barres menus */
+/*ANIMATION DEROULEMENT DES PLATS DES MENUS */
 
 @keyframes deroule
 {
