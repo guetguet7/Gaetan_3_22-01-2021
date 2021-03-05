@@ -38,12 +38,6 @@
 
 .loader {
   width: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -125,6 +119,7 @@ header i {
   margin-left: 10px;
 }
 
+/*PAGE D'ACCUEIL*/
 .section1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,7 +159,7 @@ header i {
   padding-left: 15px;
 }
 
-/*bouton explore et commande*/
+/*BOUTON EXPLORE ET COMMANDE (bouton des 4 menus)*/
 .explore {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,7 +273,7 @@ a.filter:hover {
   color: #9356DC;
 }
 
-/*carte restaurant index.html*/
+/*LES 4 MENUS DE LA PAGE D'ACCUEIL*/
 .section3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -425,7 +420,7 @@ footer .footer_link {
   padding: 10px 0 10px 0;
 }
 
-/*pages menus*/
+/*PAGES DES 4 MENUS */
 main img {
   width: 100%;
   height: 400px;
@@ -454,7 +449,7 @@ main img {
   font-weight: 400;
 }
 
-/*animation coeur des pages menus*/
+/*ANIMATION DES COEURS DANS LES MENUS*/
 .titrecoeur {
   position: relative;
   right: 5px;
@@ -487,14 +482,14 @@ main img {
   transition: all 0.5s linear;
 }
 
-/*soulignement sous les titres*/
+/*SOULIGNEMENT DES TITRES DES MENUS*/
 .underline {
   border-bottom: 3px solid #8ff3da;
   width: 40px;
   padding-top: 50px;
 }
 
-/*toutes les barres menus */
+/*TOUT LES PLATS DES MENUS */
 .meal_cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -518,6 +513,7 @@ main img {
           box-shadow: 0 0 0.5em #D0D0D0;
 }
 
+/*TEXTE QUI SE CACHE AVEC L'ANIMATION*/
 .meal_cards_dish {
   width: 100%;
   text-overflow: ellipsis;
@@ -527,7 +523,6 @@ main img {
 }
 
 .meal_cards_dish p {
-  font-weight: bold;
   font-weight: bold;
   text-overflow: ellipsis;
 }
@@ -566,7 +561,7 @@ main img {
   font-weight: bold;
 }
 
-/*animation check*/
+/*ANIMATION ROTATION CHECK*/
 .check {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -624,7 +619,7 @@ main img {
   }
 }
 
-/* animation defilement progressif des barres menus */
+/*ANIMATION DEROULEMENT DES PLATS DES MENUS */
 @-webkit-keyframes deroule {
   0% {
     -webkit-transform: translateY(-10px);
